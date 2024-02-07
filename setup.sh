@@ -1,5 +1,6 @@
 if [ ! -f ./app/data/data.db ]
 then
+    mkdir -p ./app/data
     touch ./app/data/data.db
 fi
 
